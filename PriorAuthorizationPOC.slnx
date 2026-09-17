@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="PriorAuthorization.Api/PriorAuthorization.Api.csproj" />
+  <Project Path="PriorAuthorization.Application/PriorAuthorization.Application.csproj" />
+  <Project Path="PriorAuthorization.Domain/PriorAuthorization.Domain.csproj" />
+  <Project Path="PriorAuthorization.Infrastructure/PriorAuthorization.Infrastructure.csproj" />
+  <Project Path="PriorAuthorization.Worker/PriorAuthorization.Worker.csproj" />
+</Solution>

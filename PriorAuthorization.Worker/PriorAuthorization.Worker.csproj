@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-PriorAuthorization.Worker-7b12e68d-f40d-43d7-bb2a-d204c1a48801</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.19" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PriorAuthorization.Application\PriorAuthorization.Application.csproj" />
+    <ProjectReference Include="..\PriorAuthorization.Infrastructure\PriorAuthorization.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
